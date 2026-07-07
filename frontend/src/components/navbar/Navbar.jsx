@@ -1,4 +1,4 @@
-import { React, useState} from 'react';
+import { useState} from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import AppBar from '@mui/material/AppBar';
@@ -10,7 +10,7 @@ import ShortMenu from './ShortMenu';
 import logo from '../../assets/football-seeklogo.png';
 import MenuIcon from '@mui/icons-material/Menu';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
-import { IconButton } from '@mui/material/IconButton';
+import IconButton from '@mui/material/IconButton';
 
 const drawerWidth = 240;
 const shortDrawerWidth = 80;
